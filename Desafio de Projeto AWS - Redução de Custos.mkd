@@ -1,4 +1,4 @@
-**RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA**
+# **Relatório de Implementação de Medidas de Redução de Custos **
 
 Data: 27/06/2023
 Empresa: Abstergo Industries 
@@ -6,23 +6,36 @@ Responsável: Matheo Benjamin Lucas Ferreira
 
 
 
-**Introdução**
-Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries , realizado por Matheo Benjamin Lucas Ferreira. O objetivo do projeto foi elencar 3 medidas de segurança em conjunto dos serviços da AWS, com a finalidade de realizar aumentar a segurança na empresa.
+## **Introdução**
 
-**Descrição do Projeto**
-O projeto de implementação de ferramentas foi dividido em 3 medidas de segurança. A seguir, serão descritas as etapas da implementação:
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries , realizado por Matheo Benjamin Lucas Ferreira. O objetivo do projeto foi elencar medidas para reducao de custos com os serviços da AWS.
 
-**Medida 1: - [Controle de Acesso - IAM]**
-Implementar uma estratégia de controle de acesso adequada para garantir que apenas as pessoas autorizadas tenham acesso aos recursos da AWS. Usando as políticas de controle de acesso da AWS **Identity and Access Management (IAM)** para criar e gerenciar permissões. Criando usuários individuais e atribuindo permissões específicas com base em suas funções e responsabilidades na empresa. Considere a implementação de autenticação multifator (MFA) para adicionar uma camada adicional de segurança ao processo de login.
 
-**Medida 2: - [Backup e Recuperacao de Dados]**
-Implementar uma estratégia de backup e recuperação de dados para garantir a disponibilidade e a integridade dos dados críticos da empresa. Poremos utilizar o serviço como o Amazon S3 (Simple Storage Service) para armazenar backups de dados importantes. Considerando também a replicação de dados entre regiões da AWS para aumentar a resiliência. 
 
-**Medida 3: - [Monitoramento e registro de logs]**
-Configure e utilize ferramentas de monitoramento, como o AWS CloudTrail, para rastrear e registrar todas as atividades realizadas em sua conta da AWS. Isso inclui ações do usuário, alterações em configurações, acesso a recursos e muito mais. Analisado regularmente os logs pode ajudar a identificar comportamentos suspeitos, tentativas de intrusão ou atividades não autorizadas.
+## **Descrição do Projeto**
 
-**Conclusão**
-A implementação de ferramentas na empresa  Abstergo Industries  tem como esperado o controle de todos os procedimentos executados referente a backups realizados e recuperação de Dados , o que aumentará a eficiência e a produtividade da empresa devido apenas pessoas autorizadas a ser autorizada a efetuar os devidos procedimentos. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+O projeto de implementação de ferramentas foi dividido em 3 medidas para redução de custos. A seguir, serão descritas as etapas da implementação:
+
+
+
+**Medida 1: - [Monitoramento e Otimização de Recursos com AWS Cost Explorer]**
+Utilizar o AWS Cost Explorer para analisar e monitorar os custos na AWS. Esta ferramenta fornece insights detalhados sobre seus gastos, permitindo a identificação de oportunidades de otimização. É possível tambem analisar os custos por serviço, região, marcação, entre outros, o que possibilita tomar decisões informadas sobre onde reduzir ou realocar recursos de forma mais eficaz.
+
+**Medida 2: - [Utilização de Auto Scaling e AWS Lambda]**
+
+Utilizando o Auto Scaling para dimensionar automaticamente a capacidade de recursos, como instâncias EC2, com base na demanda. Essa abordagem evita o superprovisionamento de recursos, o que resulta em redução de custos. Além disso, é recomendável considerar o uso do AWS Lambda para cargas de trabalho de computação orientadas por eventos, uma vez que você paga apenas pelo tempo de execução de código. Essa prática pode ser mais econômica do que a alocação permanente de instâncias EC2. Sendo assim, você não precisa investir em recursos de capital para testar possíveis códigos e sistemas em desenvolvimento.
+
+**Medida 3: - [Serviço de Otimização de Armazenamento de Backups]**
+
+Para otimizar os custos relacionados ao armazenamento de backups em nossa infraestrutura da AWS, implementamos um serviço de otimização que utiliza a inteligência para gerenciar nossos dados de backup de maneira eficaz. Essa estratégia tem como objetivo reduzir despesas sem comprometer a integridade ou a disponibilidade de nossos dados de backup. A política implementada automatiza o processo de movimentação de backups mais antigos ou menos acessados para classes de armazenamento mais econômicas, como o Amazon S3 Glacier ou o Amazon S3 Glacier Deep Archive.
+
+****
+
+
+
+## **Conclusão**
+
+A implementação dessas ferramentas na Abstergo Industries permite-nos tomar decisões mais assertivas para otimizar nossos custos, reduzindo o desperdício de recursos e investimentos em equipamentos e seguranca. Essa abordagem dinâmica não apenas economiza recursos financeiros, mas também garante que nossos serviços permaneçam altamente disponíveis e responsivos às mudanças do dia a dia. Além disso, visa reduzir substancialmente os custos de armazenamento, mantendo a acessibilidade dos dados quando necessário.
 
 
 
