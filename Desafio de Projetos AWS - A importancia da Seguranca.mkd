@@ -1,29 +1,27 @@
-**RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA**
+# RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA
 
-Data: 19/06/2023
-Empresa: Abstergo Industries 
-Responsável: [Matheo Benjamin Lucas Ferreira]
+**Data:** 19/06/2023
 
+**Empresa:** Abstergo Industries
 
+**Responsável:** Matheo Benjamin Lucas Ferreira
 
-**Introdução**
-Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries , realizado por Matheo Benjamin Lucas Ferreira. O objetivo do projeto foi elencar 3 medidas de segurança em conjunto dos serviços da AWS, com a finalidade de realizar aumentar a segurança na empresa.
+## Introdução
+Este relatório apresenta o processo de implementação de medidas de segurança na empresa Abstergo Industries, liderado por Matheo Benjamin Lucas Ferreira. O objetivo do projeto foi fortalecer a segurança da empresa por meio da implementação de três medidas-chave, alinhadas aos serviços da AWS.
 
-**Descrição do Projeto**
-O projeto de implementação de ferramentas foi dividido em 3 medidas de segurança. A seguir, serão descritas as etapas da implementação:
+## Descrição do Projeto
+O projeto de implementação de medidas de segurança foi dividido em três etapas essenciais:
 
-**Medida 1: - [Controle de Acesso - IAM]**
-Implementar uma estratégia de controle de acesso adequada para garantir que apenas as pessoas autorizadas tenham acesso aos recursos da AWS. Usando as políticas de controle de acesso da AWS **Identity and Access Management (IAM)** para criar e gerenciar permissões. Criando usuários individuais e atribuindo permissões específicas com base em suas funções e responsabilidades na empresa. Considere a implementação de autenticação multifator (MFA) para adicionar uma camada adicional de segurança ao processo de login.
+### Medida 1: Controle de Acesso - IAM
+Implementação de uma estratégia de controle de acesso robusta para garantir que apenas pessoas autorizadas tenham acesso aos recursos da AWS. Utilizamos as políticas de controle de acesso do AWS Identity and Access Management (IAM) para criar e gerenciar permissões. Isso envolve a criação de usuários individuais e a atribuição de permissões específicas com base em suas funções e responsabilidades na empresa. Também consideramos a implementação de autenticação multifator (MFA) para adicionar uma camada adicional de segurança ao processo de login.
 
-**Medida 2: - [Backup e Recuperacao de Dados]**
-Implementar uma estratégia de backup e recuperação de dados para garantir a disponibilidade e a integridade dos dados críticos da empresa. Poremos utilizar o serviço como o Amazon S3 (Simple Storage Service) para armazenar backups de dados importantes. Considerando também a replicação de dados entre regiões da AWS para aumentar a resiliência. 
+### Medida 2: Backup e Recuperação de Dados
+Implementação de uma estratégia sólida de backup e recuperação de dados para garantir a disponibilidade e a integridade dos dados críticos da empresa. Utilizamos serviços como o Amazon S3 (Simple Storage Service) para armazenar backups de dados importantes. Além disso, consideramos a replicação de dados entre regiões da AWS para aumentar a resiliência.
 
-**Medida 3: - [Monitoramento e registro de logs]**
-Configure e utilize ferramentas de monitoramento, como o AWS CloudTrail, para rastrear e registrar todas as atividades realizadas em sua conta da AWS. Isso inclui ações do usuário, alterações em configurações, acesso a recursos e muito mais. Analisado regularmente os logs pode ajudar a identificar comportamentos suspeitos, tentativas de intrusão ou atividades não autorizadas.
+### Medida 3: Monitoramento e Registro de Logs
+Configuração e uso de ferramentas de monitoramento, como o AWS CloudTrail, para rastrear e registrar todas as atividades realizadas em nossa conta da AWS. Isso abrange ações de usuários, alterações em configurações, acesso a recursos e muito mais. A análise regular dos logs nos permite identificar comportamentos suspeitos, tentativas de intrusão ou atividades não autorizadas.
 
-**Conclusão**
-A implementação de ferramentas na empresa  Abstergo Industries  tem como esperado o controle de todos os procedimentos executados referente a backups realizados e recuperação de Dados , o que aumentará a eficiência e a produtividade da empresa devido apenas pessoas autorizadas a ser autorizada a efetuar os devidos procedimentos. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+## Conclusão
+A implementação bem-sucedida dessas medidas de segurança na Abstergo Industries proporciona controle total sobre os procedimentos relacionados a backups e recuperação de dados. Isso aumentará significativamente a eficiência e a produtividade da empresa, garantindo que apenas pessoas autorizadas possam realizar esses procedimentos críticos. Recomendamos continuar utilizando as ferramentas implementadas e explorar constantemente novas tecnologias que possam aprimorar ainda mais os processos da empresa.
 
-
-
-Matheo Benjamin Lucas Ferreira
+**Matheo Benjamin Lucas Ferreira**
